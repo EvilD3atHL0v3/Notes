@@ -1,0 +1,23 @@
+Process List
+PS> Select-String/grep chrome
+
+windows.handles --pid 1328
+PS> Select-String File | Select-String history
+
+mkdir dump
+
+volatility
+https://www.youtube.com/watch?v=Uk3DEgY5Ue8
+windows.processlist
+windows.handles
+windows.dumpfile
+windows.cmdline
+windows.netstat
+windows.hashdump (looking password hash)
+windows.registry.userassist
+windows.registry.hivelist
+windows.registry.printkey --key "Software\MicrosoftVersion" --recurse
+
+======================================================================================================================
+whois -h whois.radb.net -- "-i origin AS14061" | findstr /r "[0-9.]*\/[0-9]*"
+======================================================================================================================
