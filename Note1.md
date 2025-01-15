@@ -11,11 +11,11 @@ grep -i "\.exe" sample.txt
 grep -i -E '\.exe\b' sample.reg
 
 # *LINUX*
-*. Sudo execution history
+*Sudo execution history*
 cat /var/log/auth.log* |grep -i COMMAND|tail
-*. Bash history
+*Bash history*
 cat ~/.bash_history
-*. File Access
+*File Access*
 cat ~/.viminfo
 
 cat /var/log/syslog* | head/tail/more/less
@@ -29,35 +29,29 @@ find / -name "more" 2>/dev/nul
 cat /etc/network/interfaces
   
 # *Window* : 
-
 doskey /history                systeminfo   tasklist /v
 for /L %a in (1,1,255) do @ping -n 1 -w 10 10.91.x.%a > null && echo 10.91.x.%a is up!
 findstr "keyword" *.
 dir /s /b | findstr apple | findstr .txt
 
 C:\Users\{Username}\AppData\Local\Microsoft\Windows\WinX
+doskey /history
 
-# doskey /history
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # *Powershell History*
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 %userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
 
 *Note*: The command above will only work from cmd.exe, as Powershell won't recognize %userprofile% as an environment variable. To read the file from Powershell, you'd have to replace %userprofile% with $Env:userprofile.
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Saved Windows Credentials
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# *Saved Windows Credentials*
 cmdkey /list
 runas /savecred /user:admin cmd.exe
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 # *IIS Configuration*
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config | findstr connectionString
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 # *Retrieve Credentials from Software* : PuTTY
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 reg query HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\ /f "Proxy" /s
