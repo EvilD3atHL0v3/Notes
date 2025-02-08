@@ -1,0 +1,22 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Insert an image inside the SVG -->
+    <image id="hoverImage" href="https://cdn.pixabay.com/photo/2019/06/25/12/59/click-here-4298145_1280.png" x="125" y="125" width="300" height="300"/>
+
+    <!-- JavaScript to handle mouseover event -->
+    <script type="text/javascript">
+        <![CDATA[
+        document.addEventListener("DOMContentLoaded", function() {
+            // Select the image element
+            var img = document.getElementById("hoverImage");
+
+            // Function to open link on hover
+            function goToLink() {
+                window.location.href = "https://secure.eicar.org/eicar.com";  // Change this URL TEST FILE
+            }
+
+            // Add mouseover event listener
+            img.addEventListener("mouseover", goToLink);
+        });
+        ]]>
+    </script>
+</svg>
