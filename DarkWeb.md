@@ -27,7 +27,7 @@ The dark web, however, is intentionally hidden and often used for anonymity.
   - [ ] **AHMIA :**    ```http://ahmiafi7fsn2n3p.onion```
   - [ ] **HAYSTAK :** ```http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion```
   - [ ] **TORCH :** ```http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion```
-  - [ ] **BLACK OPS (Market):** ```blackops3zlgfuq4dg4yrtxoe57u3sxfa34kqzbooqb0vutleqhf3zqd.onion```
+  - [ ] **BLACK OPS (Market):** ```http://blackops3zlgfuq4dg4yrtxoe57u3sxfa34kqzbooqb0vutleqhf3zqd.onion```
   - [ ] **RUSSIAN MARKET :** ```http://rumarkstror5mvgzzodqizofkji3fna7lndfylmzeisj5tamqnwnr4ad.onion```
       
 - [x] **Be Cautious**
