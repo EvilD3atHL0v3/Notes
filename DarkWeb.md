@@ -34,6 +34,11 @@ The dark web, however, is intentionally hidden and often used for anonymity.
   - [ ] **Russian :** ```http://rumarkstror5mvgzzodqizofkji3fna7lndfylmzeisj5tamqnwnr4ad.onion```
   - [ ] **WetheNorth :** ```http://hn2paw7zaahbikbejiv6h22zwtijlam65y2c77xj2ypbilm2xs4bnbid.onion```
   - [ ] **Tor Link :** ```http://torlinksge6enmcyyuxjpjkoouw4oorgdge07ftnq3zodj7g2zxi3kyd.onion``` 
+  - [ ] **Breach Forum :** ```http://breached26tezcofqla4adzyn22notfqwcac7gpbrleg4usehljwkgqd.onion```
+  - [ ] **XSS Forum :** ```https://xssforumv3isucukbxhdhwz67hoa5e2voakcfkuieq4ch257vsburuid.onion/index.php```
+  - [ ] **Others :** ```altenens.is```  ```leakbase.io```
+
+
 
 - [x] **Be Cautious**
 + Avoid clicking on unknown or suspicious links.
