@@ -56,5 +56,5 @@ You can view these SQLite history files using [SQLite Viewer](https://sqliteview
 
 ---
 
-### Disclaimer
+### ⚠ Disclaimer
 Modifying or deleting these files directly may cause issues with the browser. Use caution when making changes.
