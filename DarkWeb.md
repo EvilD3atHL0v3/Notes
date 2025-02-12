@@ -32,7 +32,8 @@ The dark web, however, is intentionally hidden and often used for anonymity.
   - [ ] **Digital Thrift Shop :** ```http://kw4zlnfh3vm2br4suykm6oome45ypj32je2bsjln3fyqa7x37taoh4id.onion```
   - [ ] **Nessus :** ```http://nexusabcdkq4pdlubs6wk6ad7p0buupzoom0xi6p7132ci4vjtb2z7yd.onion```
   - [ ] **Russian :** ```http://rumarkstror5mvgzzodqizofkji3fna7lndfylmzeisj5tamqnwnr4ad.onion```
-  - [ ] **WetheNorth :** ```http://hn2paw7zaahbikbejiv6h22zwtijlam65y2c77xj2ypbilm2xs4bnbid.onion``` 
+  - [ ] **WetheNorth :** ```http://hn2paw7zaahbikbejiv6h22zwtijlam65y2c77xj2ypbilm2xs4bnbid.onion```
+  - [ ] **Tor Link :** ```http://torlinksge6enmcyyuxjpjkoouw4oorgdge07ftnq3zodj7g2zxi3kyd.onion``` 
 
 - [x] **Be Cautious**
 + Avoid clicking on unknown or suspicious links.
