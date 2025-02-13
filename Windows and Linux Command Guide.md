@@ -109,3 +109,68 @@
 - **View Network Interfaces**
   - `cat /etc/network/interfaces`: Displays the network interfaces configuration.
 
+
+***
+***
+
+# SUMMARY
+
+## Windows Commands
+
+| Command | Description | Useful For |
+|---------|-------------|------------|
+| `doskey /history` | Shows previously executed commands (non-persistent). | Checking past command usage. |
+| `systeminfo` | Displays OS version, architecture, boot time, and network details. | Gathering system information for troubleshooting. |
+| `tasklist /v` | Lists all running processes with PID, memory usage, and user details. | Monitoring and identifying active processes. |
+| `for /L %a in (1,1,255) do @ping -n 1 -w 10 10.91.x.%a > nul && echo 10.91.x.%a is up!` | Scans a network range for active devices. | Network reconnaissance and availability checks. |
+| `findstr "keyword" *.` | Searches for `keyword` inside all files. | Finding specific content inside files. |
+| `dir /s /b \| findstr apple \| findstr .txt` | Finds `.txt` files with "apple" in the name. | Searching for specific files. |
+| `cmdkey /list` | Lists stored credentials in Windows Credential Manager. | Retrieving saved credentials. |
+| `runas /savecred /user:admin cmd.exe` | Runs CMD as an admin without prompting for a password. | Running commands with administrative privileges. |
+| `reg query HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\ /f "Proxy" /s` | Extracts PuTTY proxy settings from the registry. | Retrieving PuTTY session settings. |
+| `sc qc apphostsvc` | Shows configuration details for IIS (Internet Information Services). | Checking IIS service configuration. |
+
+## PowerShell Commands
+
+| Command | Description | Useful For |
+|---------|-------------|------------|
+| `Get-ChildItem "*.bak*" -Path C:\ -Recurse -ErrorAction SilentlyContinue \| Get-Content` | Searches and reads `.bak` files in `C:\`. | Finding and analyzing backup files. |
+| `Get-ChildItem -Path C:\Users -Recurse -ErrorAction SilentlyContinue \| Select-String "API_KEY"` | Finds hardcoded API keys in user directories. | Identifying API key leaks. |
+| `(Get-ScheduledTask | Where-Object {$_.TaskName -eq "new-sched-task"}).TaskPath` | Checks if a task named "new-sched-task" exists. | Auditing scheduled tasks for security. |
+| `Get-ChildItem -Path C:\Users\Administrator\Desktop\emails -Recurse -ErrorAction SilentlyContinue \| Select-String "password"` | Finds files containing the word "password". | Identifying stored credentials in files. |
+| `Get-ChildItem -Path C:\Users\Administrator\Desktop\emails -Recurse -ErrorAction SilentlyContinue \| Select-String "HTTPS"` | Extracts HTTPS URLs from files. | Extracting stored web addresses and credentials. |
+
+## Linux Commands
+
+| Command | Description | Useful For |
+|---------|-------------|------------|
+| ```cat /var/log/auth.log* \| grep -i COMMAND \| tail``` | Shows recent sudo commands. | Monitoring sudo command execution. |
+| `cat ~/.bash_history` | Displays command history. | Reviewing past user commands. |
+| `cat ~/.viminfo` | Checks recently edited files in Vim. | Identifying recently accessed files. |
+| `cat /var/log/syslog* \| head` | Shows recent system logs. | Reviewing system events and errors. |
+| `grep -r "This" .` | Recursively searches for "This" in all files. | Locating specific text in multiple files. |
+| `find . -name "*.txt"` | Finds all `.txt` files in the current directory. | Searching for text files. |
+| `cat /etc/network/interfaces` | Displays network settings. | Checking network configuration. |
+
+
+## Comparing Commands
+
+| Task | Windows Command | Linux Command|
+|---------|-------------|------------|
+| **Find lines with exactly 18 characters** | findstr /r "^.{18}$" filename.txt	| grep -E '^.{18}$' filename.txt |
+| **Extract IP addresses from a file**	| findstr /R "\<[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\>" HKLM.txt	| grep -Eo '\b[0-9]{1,3}(\.[0-9]{1,3}){3}\b' HKLM.txt |
+| **Search for lines containing ".exe"**	| findstr /I "\.exe" sample.txt	| grep -i "\.exe" sample.txt |
+| **Search for lines ending with ".exe"** | findstr /I "\.exe$" sample.txt	| grep -i "\.exe$" sample.txt |
+| **Search for ".exe" as a whole word**	| findstr /I "\<\.exe\>" sample.txt	| grep -i -w "\.exe" sample.txt |
+| **Hosts file location**	|	C:\Windows\System32\drivers\etc\hosts	|	/etc/hosts |
+| **Command history location**	|	doskey /history or C:\Users\{Username}\AppData\Roaming \Microsoft\Windows\PowerShell\ PSReadline\ConsoleHost_history.txt	|	cat ~/.bash_history |
+| **Credential storage location**	|	cmdkey /list	| Varies; credentials are typically stored in files like .netrc or managed by tools like pass |
+| **List users**	|	net user	| cut -d':' -f1 /etc/passwd |
+| **Add a user**	| net user [username] [password] /add	| sudo useradd [username] |
+| **Delete a user**	| net user [username] /delete	| sudo userdel [username] |
+
+## Conclusion
+These commands are useful for **system diagnostics, credential retrieval, file searching, and automation**.
+
+
+
