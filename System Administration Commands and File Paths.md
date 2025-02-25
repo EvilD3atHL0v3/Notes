@@ -16,6 +16,7 @@ Windows
     ### PowerShell Command History:
     - **Path:** `C:\Users\{Username}\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt`
     - **Description:** Stores the history of commands entered in PowerShell for the specified user. Replace {Username} with your actual username.
+    - **Powershell** `Get-History` or `Get-Content (Get-PSReadLineOption).HistorySavePath`
 
   ## Command-Line Instructions
 
