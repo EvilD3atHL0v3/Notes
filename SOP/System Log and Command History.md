@@ -85,6 +85,7 @@ To manually access it:
 2. Open `ConsoleHost_history.txt` to view saved commands.
 
 **Description of Commands:**
+
 - `Get-History`: Displays the command history of the current PowerShell session.
 - `Get-Content (Get-PSReadLineOption).HistorySavePath`: Retrieves the full history of PowerShell commands from the persistent history file.
 
@@ -111,6 +112,12 @@ journalctl > /var/log/full_system_log.log
 ```bash
 tail -n 50 /var/log/auth.log
 ```
+
+**Log File Locations:**
+- General system logs: `/var/log/syslog`
+- Authentication logs: `/var/log/auth.log`
+- Kernel logs: `/var/log/kern.log`
+- Systemd logs (if applicable): `/var/log/journal/`
 
 #### **2. Retrieving Bash/Zsh Command History**
 
@@ -143,6 +150,12 @@ To export full logs:
 ```bash
 log collect --output ~/logs/system_log.log
 ```
+
+**Log File Locations:**
+- System logs: `/var/log/system.log`
+- Application logs: `~/Library/Logs`
+- Kernel logs: `/var/log/kernel.log`
+- System diagnostic logs: `/var/log/DiagnosticMessages`
 
 #### **2. Retrieving Terminal Command History**
 
