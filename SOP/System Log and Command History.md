@@ -97,21 +97,23 @@ To manually access it:
 
 **Using Journalctl (Systemd Logs):**
 
-```bash
-journalctl --since "1 hour ago" > /var/log/system_recent.log
-```
-
-To export logs:
-
-```bash
-journalctl > /var/log/full_system_log.log
-```
-
-**Checking Auth Logs (Security Events):**
-
-```bash
-tail -n 50 /var/log/auth.log
-```
+1. Open a terminal.
+2. To display logs for the last hour:
+   ```bash
+   journalctl --since "1 hour ago"
+   ```
+3. To save system logs to a file:
+   ```bash
+   journalctl > /var/log/full_system_log.log
+   ```
+4. To view real-time logs:
+   ```bash
+   journalctl -f
+   ```
+5. To check authentication logs:
+   ```bash
+   tail -n 50 /var/log/auth.log
+   ```
 
 **Log File Locations:**
 - General system logs: `/var/log/syslog`
@@ -121,17 +123,23 @@ tail -n 50 /var/log/auth.log
 
 #### **2. Retrieving Bash/Zsh Command History**
 
-**Bash History:**
-
-```bash
-cat ~/.bash_history > /var/log/bash_history.log
-```
-
-**Zsh History:**
-
-```bash
-cat ~/.zsh_history > /var/log/zsh_history.log
-```
+1. Open a terminal.
+2. To display Bash command history:
+   ```bash
+   history
+   ```
+3. To save Bash command history to a file:
+   ```bash
+   cat ~/.bash_history > /var/log/bash_history.log
+   ```
+4. To display Zsh command history:
+   ```bash
+   cat ~/.zsh_history
+   ```
+5. To save Zsh history to a file:
+   ```bash
+   cat ~/.zsh_history > /var/log/zsh_history.log
+   ```
 
 ---
 
@@ -141,15 +149,23 @@ cat ~/.zsh_history > /var/log/zsh_history.log
 
 **Using Log Utility:**
 
-```bash
-log show --predicate 'eventMessage contains "error"' --last 1h > ~/logs/system_errors.log
-```
-
-To export full logs:
-
-```bash
-log collect --output ~/logs/system_log.log
-```
+1. Open **Terminal** on macOS.
+2. To display logs for the last hour that contain errors:
+   ```bash
+   log show --predicate 'eventMessage contains "error"' --last 1h
+   ```
+3. To export logs for further analysis:
+   ```bash
+   log show --last 24h > ~/logs/system_24h.log
+   ```
+4. To collect system-wide logs for diagnostic purposes:
+   ```bash
+   log collect --output ~/logs/system_diagnostic.log
+   ```
+5. To view real-time logs:
+   ```bash
+   log stream
+   ```
 
 **Log File Locations:**
 - System logs: `/var/log/system.log`
