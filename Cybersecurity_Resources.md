@@ -61,6 +61,7 @@
 - **[Help Net Security](https://www.helpnetsecurity.com/)** - IT security updates and research.
 - **[GBHackers](https://gbhackers.com/)** - Latest cyber threats and news.
 - **[Sophos Threat Research](https://news.sophos.com/en-us/category/threat-research/)** - Cybersecurity research and reports.
+- **[GitHub Security Lab Advisories](https://securitylab.github.com/advisories/)** - Github
 
 ## Encryption, Hashing & Decoding Tools
 - **[CyberChef](https://icyberchef.org/)** - Online tool for encoding, decoding, and analyzing data.
