@@ -38,7 +38,11 @@ The dark web, however, is intentionally hidden and often used for anonymity.
   - [ ] **XSS Forum :** ```https://xssforumv3isucukbxhdhwz67hoa5e2voakcfkuieq4ch257vsburuid.onion/index.php```
   - [ ] **Others :** ```altenens.is```  ```leakbase.io```  ```leakzone.net```  ```bhf.pro```  ```cracking.org```
 
-
+- [x] **Telegram**
+  - [ ]https://t.me/redline_market_bot
+  - [ ]https://t.me/metastealer_bot 
+  - [ ]https://t.me/risepro_bot
+  - [ ]https://t.me/RiseProSUPPORT
 
 - [x] **Be Cautious**
 + Avoid clicking on unknown or suspicious links.
