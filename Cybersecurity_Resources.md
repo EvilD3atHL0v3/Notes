@@ -84,4 +84,9 @@
 - **[MAC Address Checker](https://hwaddress.com)** - Find device manufacturers by MAC address.
 - **[App-Dev Tool](https://appdevtools.com/base64-encoder-decoder)** - Developer tool for encoding/decoding Base64.
 
+## AI-Powered Security
+- **[Grok](https://grok.com/)** – AI-driven tool for analyzing and gathering intelligence from open sources.
+- **[ChatGPT](https://chatgpt.com)** – AI assistant useful for OSINT investigations, cybersecurity research, and threat analysis.
+
+
 This list compiles the best OSINT and cybersecurity resources for security researchers, ethical hackers, and threat analysts.
