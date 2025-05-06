@@ -68,7 +68,7 @@
 - **[Base64 Decode](https://www.base64decode.org/)** - Base64 encoding/decoding tool.
 - **[Dcode](https://www.dcode.fr/tools-list)** - Online cryptographic and forensic analysis tools.
 - **[Hashes](https://hashes.com/en/decrypt/hash)** - Hash cracking and lookup service.
-- **[Md5Hashes](https://md5hashing.net/)** - Hash cracking and lookup service.
+- **[Md5Hashes](https://md5hashing.net/)** - Focused on cracking hashes via rainbow tables.
 - **[Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)** - Identify hash types.
 - **[Hashcat Example Hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)** - List of supported hash algorithms for Hashcat.
 - **[Reverse Hash Lookup](https://reverse-hash-lookup.online-domain-tools.com)** - Reverse lookup for hashes.
