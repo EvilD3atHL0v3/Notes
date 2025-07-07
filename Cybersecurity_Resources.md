@@ -17,6 +17,7 @@
 - **[PulseDive](https://pulsedive.com/)** - Threat intelligence search and analysis.
 - **[ZoomEye](https://www.zoomeye.org/)** - Network asset search engine.
 - **[PublicWWW](https://publicwww.com/)** - Source code search engine for websites.
+- **[Tgstat](https://tgstat.com)** - Telegram search engine for diffirent channel.
 
 ## Email Security & Verification
 - **[Have I Been Pwned?](https://haveibeenpwned.com/)** - Check if your email or passwords were exposed in breaches.
