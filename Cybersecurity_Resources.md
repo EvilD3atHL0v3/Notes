@@ -7,7 +7,7 @@
 - **[Attack MITRE](https://attack.mitre.org/)** - MITRE ATT&CK knowledge base for adversarial tactics and techniques.
 - **[Defend MITRE](https://d3fend.mitre.org/)** - MITRE framework for cybersecurity defense strategies.
 - **[Engage MITRE](https://engage.mitre.org/matrix/)** - MITRE framework for countering cyber threats.
-- **[CISA Eviction Strategies Tool](https://www.cisa.gov/eviction-strategies-tool)** - MITRE framework for countering cyber threats.
+- **[CISA Eviction Strategies Tool](https://www.cisa.gov/eviction-strategies-tool)** - Tool by CISA to assist in removing adversaries from compromised environments and preventing reentry.
 
 ## Threat Intelligence & Security Monitoring
 - **[Shodan](https://www.shodan.io/)** - Search engine for internet-connected devices and vulnerabilities.
