@@ -91,5 +91,20 @@
 - **[Grok](https://grok.com/)** – AI-driven tool for analyzing and gathering intelligence from open sources.
 - **[ChatGPT](https://chatgpt.com)** – AI assistant useful for OSINT investigations, cybersecurity research, and threat analysis.
 
+## Anyrun
+Anyrun is an interactive malware analysis platform that provides real-time insights into global malware activity and trends.
+
+- [Malware Trends Overview](https://any.run/malware-trends/) - Summary of current malware types and global infection trends.
+  - [**Botnet**](https://any.run/malware-trends/botnet/) - Network of infected devices controlled by attackers.
+  - [**Backdoor**](https://any.run/malware-trends/backdoor/) - Provides hidden remote access to a compromised system.
+  - [**Keylogger**](https://any.run/malware-trends/Keylogger) - Records keystrokes to steal sensitive information.
+  - [**Loader**](https://any.run/malware-trends/loader) - Installs or launches other malware on the system.
+  - [**Miner**](https://any.run/malware-trends/miner/) - Uses system resources to mine cryptocurrency.
+  - [**RATs**](https://any.run/malware-trends/rat/) - Gives attackers full remote control over a device.
+  - [**Ransomware**](https://any.run/malware-trends/ransomware) - Encrypts data and demands payment for decryption.
+  - [**Stealer**](https://any.run/malware-trends/stealer/) - Steals stored credentials and personal information.
+  - [**Trojan**](https://any.run/malware-trends/trojan) - Masquerades as legitimate software to perform malicious actions.
+
+
 
 This list compiles the best OSINT and cybersecurity resources for security researchers, ethical hackers, and threat analysts.
