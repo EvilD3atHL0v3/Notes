@@ -53,7 +53,7 @@ try {
 	
     //WScript.Echo("Alert: I steal some of your information.");
 	var title = "Security Alert";
-	var text = "Suspicious activity detected. Your system information is being synchronized with an attacker DERO-DULCE-BOT.\n\nDo you want to terminate the process?";
+	var text = "Suspicious activity detected. Your system information is being synchronized with an attacker XXX-BOT.\n\nDo you want to terminate the process?";
 	var response = shell.Popup(text, 0, title, 16 + 4);
 
 	if (response == 6) { // 6 is the ID for "Yes"
@@ -65,3 +65,4 @@ try {
     WScript.Echo("Critical Error: " + e.description);
 
 }
+
