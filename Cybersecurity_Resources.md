@@ -3,11 +3,21 @@
 ## OSINT (Open Source Intelligence)
 - **[OSINT Framework](https://osintframework.com/)** - Collection of OSINT tools and resources categorized by use cases.
 - **[OSINT Earth](https://osint.earth/search)** - OSINT search engine for gathering intelligence.
+- **[OSINTMe](https://osintme.com/)** - Blog sharing OSINT techniques, experiences, and insights from a cybersecurity and cybercrime investigation background. 
+- **[OSINT Techniques](https://www.osinttechniques.com/)** - Educational OSINT resource with tutorials, tools, and guides for investigators and analysts.
+- **[Fictional Accounts (OSINT Techniques)](https://www.osinttechniques.com/fictional-accounts.html)** - Resources and articles about creating research or “sock puppet” accounts for OSINT investigations.
 - **[Intel X](https://intelx.io/)** - Intelligence search engine for leaked data and breached information.
 - **[Attack MITRE](https://attack.mitre.org/)** - MITRE ATT&CK knowledge base for adversarial tactics and techniques.
 - **[Defend MITRE](https://d3fend.mitre.org/)** - MITRE framework for cybersecurity defense strategies.
 - **[Engage MITRE](https://engage.mitre.org/matrix/)** - MITRE framework for countering cyber threats.
 - **[CISA Eviction Strategies Tool](https://www.cisa.gov/eviction-strategies-tool)** - Tool by CISA to assist in removing adversaries from compromised environments and preventing reentry.
+
+## Fake Identity & Test Data Tools
+- **[This Person Does Not Exist](https://thispersondoesnotexist.com/)** - AI-generated human faces created using GAN technology.
+- **[Generated Photos – Face Generator](https://generated.photos/face-generator/new)** - Generate realistic AI faces for testing, design, or privacy-safe projects.
+- **[Fake Name Generator](https://www.fakenamegenerator.com/)** - Creates full fake identities including names, addresses, emails, and more.
+- **[Random User Generator](https://randomuser.me/)** - Generates random user data (name, email, location, avatar) for development and testing.
+- **[Receive SMS Online](https://www.receivesmsonline.net/)** - Temporary phone numbers for receiving SMS verification codes online.
 
 ## Threat Intelligence & Security Monitoring
 - **[Shodan](https://www.shodan.io/)** - Search engine for internet-connected devices and vulnerabilities.
@@ -44,6 +54,8 @@
 - **[BarracudaCentral](https://www.barracudacentral.org/lookups/lookup-reputation)** - Email and domain security reputation lookup.
 - **[AlienVault OTX](https://otx.alienvault.com/dashboard/new)** - Open threat exchange platform.
 - **[PhishTank](https://phishtank.com/)** - Community-based phishing URL verification.
+- **[TyLabs Scan](https://scan.tylabs.com/)** - Online file and URL scanning service for detecting malware and malicious indicators.
+- **[Sucuri SiteCheck](https://sitecheck.sucuri.net/)** - Free website malware and security scanner that checks for infections, blacklist status, and security issues.
 
 ## Networking & Port Scanners
 - **[Nmap Online Scanner](https://hackertarget.com/nmap-online-port-scanner/)** - Web-based network scanning tool.
