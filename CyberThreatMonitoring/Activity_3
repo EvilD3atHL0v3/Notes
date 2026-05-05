@@ -1,0 +1,137 @@
+Activity # 3: Cybersecurity Workplace Communication Drill (GitHub-Based)
+
+Objective
+Practice real-world cybersecurity communication by working as a team using GitHub.
+Students will analyze a cyber incident and communicate properly like a Security Operations Center (SOC) team.
+
+Part 1: Access the Repository
+Instructions
+1. Your instructor will provide the repository link:
+
+    cyber-soc-communication-lab
+    https://github.com/xen0byt3/cyber-soc-communication-lab
+
+2. Open the repository in your browser.
+3. Review the following files:
+README.md → contains the scenario
+attack_log.txt → contains logs and evidence
+
+Part 2: Analyze the Incident
+Given Log File:
+You will analyze events such as
+
+    Multiple failed login attempts
+    A successful login
+    Privilege escalation (admin → root)
+    A phishing email
+    A user who reported entering credentials
+
+
+Guide Questions
+
+    Is there a brute force attack?
+    Which IP address is suspicious?
+    Was there unauthorized access?
+    Is this related to phishing?
+
+
+Part 3: Team Roles
+Each student will be assigned ONE role:
+
+Your role will be based on the first letter of your LAST NAME:
+
+A, B, C, D, E, F, G, H, I → Tier 1 Analyst
+J, K, L, M, N, O, P, Q → Tier 2 Analyst
+R, S, T, U, V, W, X, Y, Z → Incident Responder
+
+Team Lead: Instructor
+
+Tier 1 Analyst
+Responsibilities:
+
+    Review the logs
+    Identify suspicious activity
+    Create a GitHub Issue
+
+Your Task:
+Write a short alert report using this format:
+
+    Title: 
+    Description:
+    Initial Assessment:
+    Severity:
+
+[Example]
+Title: Suspicious Login Activity Detected
+
+Description:
+Multiple failed login attempts detected from IP 192.168.1.100.
+A successful login for admin was observed.
+
+Initial Assessment:
+Possible brute force attack.
+
+Severity:
+Medium
+
+Tier 2 Analyst
+Responsibilities:
+
+    Perform deeper analysis
+    Comment on the GitHub Issue
+
+Your Task:
+
+    Add findings such as:
+    Timeline of events
+    Confirmation of attack type
+    Link to phishing activity
+
+
+[Example]
+
+Further analysis shows successful login after multiple failures.
+Admin account accessed root privileges.
+Phishing email may have compromised credentials.
+
+Incident Responder
+Responsibilities:
+
+    Suggest solutions and actions
+
+Your Task:
+
+    Comment mitigation steps:
+
+
+[Example]
+
+- Reset compromised accounts
+- Block suspicious IP addresses
+- Enable multi-factor authentication (MFA)
+- Educate users about phishing attacks
+
+Team Lead (Instructor)
+
+Responsibilities:
+
+    Review all responses
+    Approve escalation
+    Provide final feedback
+
+
+Part 4: Communication Rules
+
+    Use clear and professional language
+    Be concise and direct
+    Avoid slang or informal words
+    Focus on facts and evidence
+
+
+Part 5: Submission
+
+Each student must:
+
+    Participate based on assigned role
+    Post or comment in the GitHub Issue
+    Follow proper communication format
