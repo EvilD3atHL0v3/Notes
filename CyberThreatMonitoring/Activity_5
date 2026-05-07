@@ -1,0 +1,183 @@
+Activity # 5: Installing Relevant Technologies for Cyber Threat Monitoring
+
+Objective:
+Set up essential cybersecurity tools and practice secure installation, verification, and Git-based workflow using Git and GitHub.
+
+Part 1: Download Required Tools
+
+Download the following:
+
+    Gpg4win
+
+            https://gpg4win.org/download.html
+
+    Git
+
+            https://git-scm.com/
+
+    GitHub Desktop (Optional)
+
+           https://desktop.github.com/download/
+
+    GitHub CLI
+
+           https://cli.github.com/
+
+Part 2: Install Gpg4win & Verify Installer (IMPORTANT)
+
+[Step 1]
+
+    Install Gpg4win
+    Open the downloaded installer
+    Click Next → Install → Finish
+
+
+[Step 2]
+
+    Verify Installer Using PowerShell
+    Open PowerShell
+    Navigate to your Downloads folder:
+
+           cd $env:USERPROFILE\Downloads
+
+    Run this command to generate file hash:
+
+          Get-FileHash .\gpg4win-*.exe
+
+    Go back to the official Gpg4win website
+    Compare the hash value:
+    If it matches → File is safe
+    If not → Do NOT install
+
+
+Part 3: Install Other Tools
+
+    Install Git
+    Open the Git installer
+    Click Next until installation starts
+    Keep default settings (recommended)
+    Click Install → Finish
+
+
+Install GitHub CLI
+
+    Open the installer
+    Click Next → Install → Finish
+    Open Command Prompt / PowerShell
+    Verify installation:
+
+            gh --version
+
+Install GitHub Desktop (Optional)
+
+    Open installer
+    Sign in using your GitHub account
+    Follow setup instructions
+
+
+Part 4: Create Your Project Folder
+Instructions:
+
+    Create a folder:
+
+           handleName-gitXsoc
+
+    Example:
+
+           XenoByte-gitXsoc
+
+    Inside the folder, create a file:
+
+            att4ck_l0g.txt
+
+Example Log File:
+Apr 06 09:10:12 Failed login for admin from 192.168.1.10
+Apr 06 09:10:15 Failed login for root from 192.168.1.10
+Apr 06 09:10:20 Failed login for user from 192.168.1.10
+Apr 06 09:11:05 Successful login for admin from 192.168.1.10
+Apr 06 09:11:30 Admin executed sudo command
+Apr 06 09:12:10 Suspicious file uploaded to server
+Apr 06 09:13:45 Connection to unknown IP 10.0.0.50
+Apr 06 09:14:00 Possible data exfiltration detected
+Apr 06 09:15:20 Antivirus disabled
+Apr 06 09:16:00 System reboot initiated
+
+Part 5: Git Configuration
+
+    Open Git Bash inside your folder, then run:
+
+            git config --global user.name "Your Cybersecurity Handle"
+            git config --global user.email "your@email.com"
+            git config --list
+
+Part 6: Authenticate Using GitHub CLI
+Step-by-Step:
+
+    Open terminal (Git Bash or PowerShell)
+    Run:
+
+           gh auth login
+
+    Follow the prompts:
+    Choose: GitHub.com
+    Choose: HTTPS
+    Choose: Login with a web browser
+    A code will appear → copy it
+    Browser will open:
+    Paste the code
+    Click Authorize
+    Once successful, you will see:
+
+            Authentication complete.
+
+Part 7: Upload Your Project to GitHub
+
+1. Initialize Repository
+
+    Right-click folder → Open Git Bash here
+
+           git init
+           git add .
+           git commit -m "Initial cyber attack log upload"
+
+2. Create Repository Online
+
+    Go to GitHub
+    Click New Repository
+    Repository name = your folder name
+    DO NOT check “Add README”
+    Click Create Repository
+    Connect & Push
+
+           git remote add origin https://github.com/yourusername/nameofproject.git
+           git branch -M main
+           git push -u origin main
+
+3. Add Tag
+           git tag v1.0
+           git push origin v1.0
+
+Part 8: Update Files (Practice)
+
+    git add .
+    git commit -m "Updated attack log"
+    git push
+    git status
+
+
+Part 9: Add Collaborator
+
+    Go to your repository on GitHub
+    Click Settings → Collaborators
+    Click Add people
+    Enter:
+    xen0byt3
+    Send invitation
+
+
+Submission
+Submit the following
+
+    GitHub Repository Link
+    Screenshot of uploaded files
+    Proof of successful push
