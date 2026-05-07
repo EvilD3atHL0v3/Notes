@@ -8,38 +8,27 @@ Part 1: Download Required Tools
 Download the following:
 
     Gpg4win
-
             https://gpg4win.org/download.html
 
     Git
-
             https://git-scm.com/
 
     GitHub Desktop (Optional)
-
            https://desktop.github.com/download/
 
     GitHub CLI
-
            https://cli.github.com/
 
 Part 2: Install Gpg4win & Verify Installer (IMPORTANT)
-
 [Step 1]
-
     Install Gpg4win
     Open the downloaded installer
     Click Next → Install → Finish
-
-
 [Step 2]
-
     Verify Installer Using PowerShell
     Open PowerShell
     Navigate to your Downloads folder:
-
            cd $env:USERPROFILE\Downloads
-
     Run this command to generate file hash:
 
           Get-FileHash .\gpg4win-*.exe
@@ -51,7 +40,6 @@ Part 2: Install Gpg4win & Verify Installer (IMPORTANT)
 
 
 Part 3: Install Other Tools
-
     Install Git
     Open the Git installer
     Click Next until installation starts
@@ -60,7 +48,6 @@ Part 3: Install Other Tools
 
 
 Install GitHub CLI
-
     Open the installer
     Click Next → Install → Finish
     Open Command Prompt / PowerShell
@@ -69,11 +56,9 @@ Install GitHub CLI
             gh --version
 
 Install GitHub Desktop (Optional)
-
     Open installer
     Sign in using your GitHub account
     Follow setup instructions
-
 
 Part 4: Create Your Project Folder
 Instructions:
@@ -166,7 +151,6 @@ Part 8: Update Files (Practice)
 
 
 Part 9: Add Collaborator
-
     Go to your repository on GitHub
     Click Settings → Collaborators
     Click Add people
