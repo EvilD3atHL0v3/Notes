@@ -280,7 +280,7 @@ Upload the following files to your GitHub repository:
 Then add:
 
 ```text
-xen0byt3
+EvilD3atHL0v3
 ```
 
 as a collaborator.
