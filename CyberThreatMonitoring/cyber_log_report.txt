@@ -1,0 +1,51 @@
+
+===== CYBER THREAT LOG REPORT =====
+Name: Jomar Robles
+Handle: EvilD3atHL0v3
+Start Time: 2026-05-11 18:03:14.947839
+End Time: 2026-05-11 18:05:11.645945
+Duration (minutes): 1.94
+Score: 7/10
+Rating: ADVANCED
+---- Threat Logs ----
+Threat: FTP Credential Sniffing
+NOTICE: Suspicious traffic pattern detected targeting port 
+ALERT: Failed login attempt detected from 192.168.1.79 on port
+-------------------
+Threat: SSH Brute Force Attack
+NOTICE: Suspicious traffic pattern detected targeting port 
+CRITICAL: Ransomware activity suspected via
+-------------------
+Threat: SMTP Phishing Campaign
+WARNING: Multiple authentication failures for service
+WARNING: Multiple authentication failures for service
+-------------------
+Threat: MySQL Data Theft
+NOTICE: Suspicious traffic pattern detected targeting port 
+ALERT: Failed login attempt detected from 192.168.1.233 on port
+-------------------
+Threat: DNS Amplification DDoS
+WARNING: Multiple authentication failures for service
+ALERT: Failed login attempt detected from 192.168.1.3 on port
+-------------------
+Threat: SMB Ransomware Attack
+NOTICE: Suspicious traffic pattern detected targeting port 
+WARNING: Multiple authentication failures for service
+-------------------
+Threat: POP3 Credential Sniffing
+CRITICAL: Ransomware activity suspected via
+WARNING: Multiple authentication failures for service
+-------------------
+Threat: RDP Brute Force Attack
+WARNING: Multiple authentication failures for service
+WARNING: Multiple authentication failures for service
+-------------------
+Threat: Telnet Credential Theft
+NOTICE: Suspicious traffic pattern detected targeting port 
+WARNING: Multiple authentication failures for service
+-------------------
+Threat: HTTPS Web Exploit
+NOTICE: Suspicious traffic pattern detected targeting port 
+ALERT: Possible brute force attempt detected
+-------------------
+===================================
